@@ -30,30 +30,32 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // console.log("Die Summe der Zahlen ist: " + summe);
 
 /** Lösung */
-/***** variate 1********************** */
+/***** variate 1********************** (gute lesbar aber viele Variabeln) */
 
 //Deklaration:
-let ziffer1, ziffer2;
-let zahl1, zahl2;
-let summe
+// let ziffer1, ziffer2;
+// let zahl1, zahl2;
+// let summe
 
-// Eingabe | Wertzuweisung : Ziffern
-ziffer1 =prompt("Zahl 1: ");
-ziffer2 =prompt("Zahlt 2: ");
-console.log(typeof ziffer1);
-console.log(typeof ziffer2);
+// // Eingabe | Wertzuweisung : Ziffern
+// ziffer1 =prompt("Zahl 1: ");
+// ziffer2 =prompt("Zahlt 2: ");
+// console.log(typeof ziffer1);
+// console.log(typeof ziffer2);
 
-//Typkonvertierung | Ziffer --> Zahl (string to number)
-zahl1 = parseInt(ziffer1);
-zahl2 = parseInt(ziffer2);
-console.log(typeof zahl1);
-console.log(typeof zahl2);
+// //Typkonvertierung | Ziffer --> Zahl (string to number)
+// zahl1 = parseInt(ziffer1);
+// zahl2 = parseInt(ziffer2);
+// console.log(typeof zahl1);
+// console.log(typeof zahl2);
 
+// summe = zahl1 + zahl2;
 
+// console.log("Die Summe der Zahlen ist: " + summe);
 
-summe = zahl1 + zahl2;
+/** variante 2****************+ */
+let zahl1 = parseInt(prompt("Zahl1 : "));
+let zahl2 = parseInt(prompt("Zahl 2: "));
+summe = zahl1 + zahl2
 
-console.log("Die Summe der Zahlen ist: " + summe);
-
-
-
+console.log("Die summe der Zahlen ist : " + summe);
