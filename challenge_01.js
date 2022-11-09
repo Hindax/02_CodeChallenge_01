@@ -54,8 +54,17 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // console.log("Die Summe der Zahlen ist: " + summe);
 
 /** variante 2****************+ */
-let zahl1 = parseInt(prompt("Zahl1 : "));
-let zahl2 = parseInt(prompt("Zahl 2: "));
-summe = zahl1 + zahl2
+// Kompakte Lösung
 
-console.log("Die summe der Zahlen ist : " + summe);
+// 
+/**   Variate 3******** */
+// Kompakt, aber schlechter lesbar, unflexibel
+
+console.log(
+    "Die Summe ist: " +
+    (
+        parseFloat(prompt("Bitte Zahl 1 eingeben")) +
+        parseFloat(prompt("Bitte Zahl2 eingeben:"))
+    )
+);
+
